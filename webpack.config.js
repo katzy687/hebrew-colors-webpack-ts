@@ -39,8 +39,8 @@ module.exports = {
     }]
   }
     ]
-  }/*,
+  },
   plugins: [
     new WebpackBrowserPlugin() // to lanunch browser
-  ]*/
+  ]
 };
