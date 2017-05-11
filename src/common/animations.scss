@@ -1,0 +1,100 @@
+/* ============ CUSTOM ANIMATIONS ============ */
+
+// Page transitions
+
+/* The starting CSS styles for the enter animation */
+main.ng-enter {
+  transition:0.8s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+main.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+// list item slider effects
+$itemExit: 0.1s;
+$itemEnter: 0.8s;
+
+$exitStyle: fadeOutLeft;
+$enterStyle: bounceInRight;
+
+/* when hiding the thing */
+list-item.ng-hide-add         {
+  -webkit-animation:$itemExit $exitStyle;
+  animation:$itemExit $exitStyle;
+}
+
+/* when showing the thing */
+list-item.ng-hide-remove      {
+  -webkit-animation:$itemEnter $enterStyle;
+  animation:$itemEnter $enterStyle;
+}
+
+
+// slider forward button animations
+$nextExit: 0.2s;
+$nextEnter: 1.5s;
+
+/* when hiding the thing */
+#next-button.ng-hide-add         {
+  -webkit-animation:$nextExit flipOutX;
+  animation:$nextExit flipOutX;
+}
+
+/* when showing the thing */
+#next-button.ng-hide-remove      {
+  -webkit-animation:$nextEnter flipInX;
+  animation:$nextEnter flipInX;
+}
+
+
+// back button animations
+$backExit: 0.5s;
+$backEnter: 2.5s;
+
+/* when hiding the thing */
+#back-button.ng-hide-add         {
+  -webkit-animation:$backExit flipOutX;
+  animation:$backExit flipOutX;
+}
+
+/* when showing the thing */
+#back-button.ng-hide-remove      {
+  -webkit-animation:$backEnter flipInX;
+  animation:$backEnter flipInX;
+}
+
+//practice button animations
+$practiceExit: 0.0s;
+$practiceEnter: 2.0s;
+// practice
+/* when hiding the thing */
+#practice-button.ng-hide-add         {
+  -webkit-animation:$practiceExit flipOutX;
+  animation:$practiceExit flipOutX;
+}
+
+/* when showing the thing */
+#practice-button.ng-hide-remove      {
+  -webkit-animation:$practiceEnter flipInX;
+  animation:$practiceEnter flipInX;
+}
+
+
+// Additional Slider Button Animation Settings
+.invisible {
+  visibility: hidden;
+}
+
+.m-fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+.m-fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}

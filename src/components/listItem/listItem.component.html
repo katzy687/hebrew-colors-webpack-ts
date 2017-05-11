@@ -1,0 +1,21 @@
+<div class="colorListItem" ng-click="$ctrl.playClip()">
+
+  <div class="img-container tooltip" ng-click="$ctrl.showHebrew()" ng-mouseleave="$ctrl.hideHebrew()">
+    <img ng-src="{{$ctrl.color.Photo}}" alt="{{$ctrl.color.English}}" class="hvr-grow">
+
+    <div class="tooltiptext">
+
+      <p>{{$ctrl.color.English}}</p>
+
+      <div id="hebrew-text" ng-class="$ctrl.class">
+        <p>{{$ctrl.color.Transliteration}}</p>
+        <p>{{$ctrl.color.Hebrew}}</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</div>

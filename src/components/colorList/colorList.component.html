@@ -1,0 +1,38 @@
+<div class="list-container"  md-whiteframe="3">
+
+  <md-toolbar md-scroll-shrink>
+      <div class="md-toolbar-tools">
+        <h1>Colors Hebrew Vocabulary</h1>
+      </div>
+  </md-toolbar>
+
+    <md-subheader class="md-primary">
+      Do you know the names of  the Colors in Hebrew? Put your knowledge to the test, then check your answer by clicking on each color.
+    </md-subheader>
+
+  <div class="colorsList" ng-cloak layout-xl="row" layout-lg="row" layout-md="row" layout-sm="column"
+        layout-xs="column" layout-align="center center" layout-margin>
+
+      <i id="back-button" class="material-icons animated " ng-click="$ctrl.back()"
+        ng-class="$ctrl.page === 1 ? 'm-fadeOut': 'flipInX' ">
+        keyboard_arrow_left
+      </i>
+
+      <div class="item-wrapper" layout layout-align="center center" layout-margin>
+        <list-item ng-repeat="color in $ctrl.colors track by $index" color="color"
+          ng-show="(($index < ($ctrl.page * $ctrl.numRecords)) && ($index >= (($ctrl.page - 1) * $ctrl.numRecords)))">
+        </list-item>
+      </div>
+
+      <i id="next-button" class="material-icons animated" ng-click="$ctrl.next()"
+        ng-class="$ctrl.page === 3 ? 'm-fadeOut': 'flipInX' ">
+        keyboard_arrow_right
+      </i>
+
+      <md-button id="practice-button" type="button" name="practice" class="md-raised md-primary animated infinite pulse"
+        ng-show="($ctrl.page===3)" ui-sref="practice">
+        Practice
+      </md-button>
+
+  </div>
+</div>

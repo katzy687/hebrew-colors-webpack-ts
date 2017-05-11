@@ -1,0 +1,114 @@
+[
+  {
+    "English": "White",
+    "Transliteration": "Lavan",
+    "Hebrew": "לבן",
+    "Photo": "./assets/Colors_cut/igul17.png",
+    "Start": 8,
+    "Duration": 1500
+  },
+  {
+    "English": "Gray",
+    "Transliteration": "Afor",
+    "Hebrew": "אפור",
+    "Photo": "./assets/Colors_cut/igul18.png",
+    "Start": 1.5,
+    "Duration": 1000
+  },
+  {
+    "English": "Black",
+    "Transliteration": "Shachor",
+    "Hebrew": "שחור",
+    "Photo": "./assets/Colors_cut/igul20.png",
+    "Start": 11.5,
+    "Duration": 2000
+  },
+  {
+    "English": "Blue",
+    "Transliteration": "Kachol",
+    "Hebrew": "כחול",
+    "Photo": "./assets/Colors_cut/igul15.png",
+    "Start": 4.5,
+    "Duration": 1500
+  },
+  {
+    "English": "Light Blue",
+    "Transliteration": "Tchelet",
+    "Hebrew": "תכלת",
+    "Photo": "./assets/Colors_cut/igul13.png",
+    "Start": 15.5,
+    "Duration": 2500
+  },
+  {
+    "English": "Dark Blue",
+    "Transliteration": "Kachol Kehe",
+    "Hebrew": "כחול כהה",
+    "Photo": "./assets/Colors_cut/igul16.png",
+    "Start": 2.5,
+    "Duration": 2000
+  },
+  {
+    "English": "Purple",
+    "Transliteration": "Sagol",
+    "Hebrew": "סגול",
+    "Photo": "./assets/Colors_cut/igul14.png",
+    "Start": 9,
+    "Duration": 2700
+  },
+  {
+    "English": "Green",
+    "Transliteration": "Yarok",
+    "Hebrew": "ירוק",
+    "Photo": "./assets/Colors_cut/igul10.png",
+    "Start": 21,
+    "Duration": 2000
+  },
+  {
+    "English": "Light Green",
+    "Transliteration": "Yarok Bahir",
+    "Hebrew": "ירוק בהיר",
+    "Photo": "./assets/Colors_cut/igul9.png",
+    "Start": 18,
+    "Duration": 3000
+  },
+  {
+    "English": "Pink",
+    "Transliteration": "Varod",
+    "Hebrew": "ורוד",
+    "Photo": "./assets/Colors_cut/igul8.png",
+    "Start": 13.5,
+    "Duration": 2000
+  },
+  {
+    "English": "Yellow",
+    "Transliteration": "Tzahov",
+    "Hebrew": "צהוב",
+    "Photo": "./assets/Colors_cut/igul4.png",
+    "Start": 23,
+    "Duration": 1500
+  },
+  {
+    "English": "Maroon",
+    "Transliteration": "Bordo",
+    "Hebrew": "בורדו",
+    "Photo": "./assets/Colors_cut/igul6.png",
+    "Start": 0,
+    "Duration": 1500
+  },
+  {
+    "English": "Orange",
+    "Transliteration": "Katom",
+    "Hebrew": "כתום",
+    "Photo": "./assets/Colors_cut/igul3.png",
+    "Start": 6,
+    "Duration": 2000
+  },
+  {
+    "English": "Red",
+    "Transliteration": "Adom",
+    "Hebrew": "אדום",
+    "Photo": "./assets/Colors_cut/igul5.png",
+    "Start": 24.5,
+    "Duration": 1500
+  }
+]

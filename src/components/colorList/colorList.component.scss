@@ -1,0 +1,120 @@
+$borderRadius: 10px;
+$panelColor: #039BE5;
+
+color-list { display: block;}
+
+.list-container {
+  margin: 50px auto;
+  border-radius: $borderRadius;
+  max-width: 1150px;
+
+  md-toolbar {
+    border-radius: $borderRadius $borderRadius 0  0;
+    background: $panelColor;
+
+    h1 {
+      color: white;
+      font-size: 18px;
+    }
+  }
+
+  .md-subheader-content {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+
+}
+
+
+.colorsList {
+  position: relative;
+
+  .item-wrapper{
+    flex-wrap: nowrap;
+  }
+
+
+  h1,p {
+    font-size: 22px;
+    color: #f1f3f6;
+    padding-left: 22px;
+  }
+
+  .material-icons {
+    font-size: 120px;
+    cursor: pointer;
+    display: block;
+  }
+
+  // clear blue box
+  .material-icons.active,
+  .material-icons:active,
+  .material-icons:focus {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #practice-button {
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Roboto', "Comic Sans Ms";
+    background: $panelColor;
+    display: block;
+  }
+}
+
+/* ============ Media Queries ============ */
+@media screen and (max-width: 1200px) {
+
+  .list-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  list-item {
+
+    .colorListItem {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    img {
+      width: 110px;
+    }
+
+
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  list-item {
+
+    .colorListItem {
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+
+    img {
+      width: 100px;
+    }
+
+
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  list-item {
+
+
+    img {
+      width: 50px;
+    }
+
+
+  }
+}

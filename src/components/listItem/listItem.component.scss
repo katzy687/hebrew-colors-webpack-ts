@@ -1,0 +1,79 @@
+list-item {
+  display: block;
+}
+
+// clear blue box
+.colorListItem.active,
+.colorListItem:active,
+.colorListItem:focus {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.colorListItem {
+  margin: 35px 10px 100px;
+
+
+  h1 {
+    color: #5c8de4;
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+  .img-container {
+    // box-shadow: 0px 10px 10px -5px #888888; //buggy..
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 115%;
+  left: 25%;
+  margin-left: -60px;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .hidden-hebrew {
+    visibility: hidden;
+  }
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:active .tooltiptext {
+  background: blue;
+}
+
+// clear blue box
+.tooltip.active,
+.tooltip:active,
+.tooltip:focus {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
