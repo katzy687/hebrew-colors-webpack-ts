@@ -33,14 +33,15 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
-    test: /\.html$/,
-    use: [{
-      loader: 'html-loader'
-    }]
-  }
+        test: /\.html$/,
+        use: [{
+          loader: 'html-loader'
+        }]
+      }
     ]
-  },
-  plugins: [
-    new WebpackBrowserPlugin() // to lanunch browser
-  ]
+  }
+  /*,
+    plugins: [
+      new WebpackBrowserPlugin() // to lanunch browser
+    ]*/
 };
