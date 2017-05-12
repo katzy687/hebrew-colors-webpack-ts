@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node server",
     "dev": "webpack-dev-server --inline --hot",
     "ww": "webpack -w",
     "lite": "lite-server"
