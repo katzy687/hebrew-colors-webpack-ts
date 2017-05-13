@@ -90,8 +90,11 @@ color-list { display: block;}
 
 @media screen and (max-width: 960px) {
 
-  list-item {
+  .list-container {
+    margin: 30px;
+  }
 
+  list-item {
     .colorListItem {
       margin-bottom: 5px;
       margin-top: 5px;
@@ -100,9 +103,14 @@ color-list { display: block;}
     img {
       width: 100px;
     }
+  }
+}
 
-
-
+@media screen and (max-width: 700px) {
+  list-item {
+    img {
+      width: 80px;
+    }
   }
 }
 
@@ -112,6 +120,14 @@ color-list { display: block;}
 
   .md-subheader {
     display: none;
+  }
+
+  .list-container {
+    margin: 20px;
+  }
+
+  .item-wrapper {
+    margin-top: -20px;
   }
 
   #next-button {
