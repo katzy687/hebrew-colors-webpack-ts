@@ -2,10 +2,10 @@ Hebrew Colors - Angular 1.6 components + Typescript
 -------------------------------------------------------
 Hebrew Learning Pod Vocabulary and Matching Game remake
 
-To get started, clone repo, npm install, npm start (Launches Webpack Dev Server on port 8080)
+After cloning repo, npm install, npm start (launches node server on port 5000)
 
 Alternatively:
-Run `webpack -w` and `lite-server` in adjacent terminal for development
+Run `webpack -w` and `lite-server` in adjacent terminals for development with live-reload
 
 Folder Structure
 ----------------
@@ -23,3 +23,5 @@ Technologies Used
 - SCSS
 - Webpack 2
 - Ng-animate + animate.css
+
+live prototype at https://hebrew-colors.herokuapp.com/#!/
