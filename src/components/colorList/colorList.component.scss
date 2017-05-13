@@ -108,13 +108,48 @@ color-list { display: block;}
 
 @media screen and (max-width: 600px) {
 
-  list-item {
+  $button-size: 75px;
 
-
-    img {
-      width: 50px;
-    }
-
-
+  .md-subheader {
+    display: none;
   }
+
+  #next-button {
+    width: $button-size;
+    height: $button-size;
+    font-size: $button-size;
+  }
+
+  #back-button {
+    width: $button-size;
+    height: $button-size;
+    font-size: $button-size;
+  }
+
+
+  list-item {
+    img {
+      width: 75px;
+    }
+  }
+
+  // change animation style
+  $itemExit: 0.1s;
+  $itemEnter: 0.8s;
+
+  $exitStyle: fadeOutUp;
+  $enterStyle: bounceInUp;
+
+  /* when hiding the thing */
+  list-item.ng-hide-add         {
+    -webkit-animation:$itemExit $exitStyle;
+    animation:$itemExit $exitStyle;
+  }
+
+  /* when showing the thing */
+  list-item.ng-hide-remove      {
+    -webkit-animation:$itemEnter $enterStyle;
+    animation:$itemEnter $enterStyle;
+  }
+
 }

@@ -10,15 +10,19 @@
       Do you know the names of  the Colors in Hebrew? Put your knowledge to the test, then check your answer by clicking on each color.
     </md-subheader>
 
-  <div class="colorsList" ng-cloak layout-xl="row" layout-lg="row" layout-md="row" layout-sm="column"
-        layout-xs="column" layout-align="center center" layout-margin>
+  <div class="colorsList" ng-cloak layout-xl="row" layout-align-xl="center center"
+        layout-lg="row" layout-align-lg="center center"
+        layout-md="row" layout-align-md="center center"
+        layout-sm="column" layout-align-sm="center center"
+        layout-xs="column" layout-align-xs="center start" layout-margin>
 
       <i id="back-button" class="material-icons animated " ng-click="$ctrl.back()"
         ng-class="$ctrl.page === 1 ? 'm-fadeOut': 'flipInX' ">
         keyboard_arrow_left
       </i>
 
-      <div class="item-wrapper" layout layout-align="center center" layout-margin>
+      <div class="item-wrapper" layout="row" layout-align="center center" layout-margin
+      layout-xs="column">
         <list-item ng-repeat="color in $ctrl.colors track by $index" color="color"
           ng-show="(($index < ($ctrl.page * $ctrl.numRecords)) && ($index >= (($ctrl.page - 1) * $ctrl.numRecords)))">
         </list-item>
